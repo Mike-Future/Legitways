@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Login – LegitWays</title>
+    <meta
+        name="description"
+        content="Administrator sign‑in for the LegitWays blog editor."
+    />
+
+    <!-- fonts & shared styles -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles/general-styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left-section">
+            <a href="homepage.html" class="header-link" aria-label="LegitWays Home">
+                <img class="logo" src="images/logo-2.png" alt="LegitWays logo">
+            </a>
+        </div>
+
+        <div class="header-middle-section">
+            <h1>Legit Ways to Live Better, Smarter, and More Securely</h1>
+        </div>
+
+        <div class="header-right-section">
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="about-us.html">About</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero hero--login">
+            <div class="container">
+                <h2>Administrator Login</h2>
+
+                <form id="login-form" action="#" method="post" autocomplete="off">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit" class="btn-primary">Sign In</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-column">
+                <strong>LEGITWAYS</strong><br>
+                <span class="tagline">Pathways to a Better Life</span>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <a href="about-us.html">About</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LegitWays. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/login.js"></script>
+</body>
+</html>
