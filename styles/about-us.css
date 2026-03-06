@@ -12,6 +12,11 @@
     margin-right: auto;
 }
 
+.container {
+    align-items: center;
+    text-align: center;
+}
+
 .about-intro p:last-child {
     margin-bottom: 0;
 }
