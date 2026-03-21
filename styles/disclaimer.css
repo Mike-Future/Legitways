@@ -1,0 +1,22 @@
+.small-header {
+    background: var(--trust-blue);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.legal {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.legal h2 {
+    margin-top: 30px;
+    color: var(--trust-blue);
+}
+
+.legal p {
+    margin-top: 10px;
+    color: #333;
+}
